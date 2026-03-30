@@ -1,8 +1,8 @@
-# 第一階與第二階 ODE 經典題庫與解答
+# First homework question
 
-## 第一部分：一階 ODE Commonly Asked Questions (20 questions)
+## Commonly Asked Questions in First-Order ODE (20 questions)
 
-### 一、分離變數法 (Separable variables)
+### Separable variables
 
 **① 題目：** $\frac{dy}{dx} = xy$
 
@@ -39,7 +39,7 @@ $$\begin{aligned}
 \ln y &= C e^x \Rightarrow y = e^{C e^x}
 \end{aligned}$$
 
-### 二、線性微分方程式 (Linear differential equations)
+### 二、Linear differential equations
 
 **⑤ 題目：** $y' + 2y = e^{-x}$
 
@@ -90,7 +90,7 @@ xy &= \frac{1}{3}x^3 + C \\
 y &= \frac{1}{3}x^2 + \frac{C}{x}
 \end{aligned}$$
 
-### 三、伯努利方程式 (Bernoulli equation)
+### 三、Bernoulli equation
 
 **⑩ 題目：** $y' + y = xy^2$
 
@@ -131,7 +131,7 @@ I.F. &= e^{-\int \frac{1}{x} dx} = x^{-1} \\
 y &= \frac{1}{1 + Cx}
 \end{aligned}$$
 
-### 四、正合方程式 (Exact Equation)
+### 四、Exact Equation
 
 **⑬ 題目：** $(2xy+y^2)dx + (x^2+2xy)dy = 0$
 
@@ -151,7 +151,11 @@ M_y &= \cos x, \quad N_x = \cos x \quad (\text{Exact}) \\
 \frac{\partial}{\partial y}(y\sin x + x^2 + g(y)) &= \sin x + g'(y) = N = \sin x + 3y^2 \\
 g'(y) &= 3y^2 \Rightarrow g(y) = y^3 \\
 y\sin x + x^2 + y^3 &= C
-\end{aligned}$$**⑮ 題目：** $(y+x^2)dx + (x+y^2)dy = 0$$$\begin{aligned}
+\end{aligned}$$
+
+**⑮ 題目：** $(y+x^2)dx + (x+y^2)dy = 0$
+
+$$\begin{aligned}
 M_y &= 1, \quad N_x = 1 \quad (\text{Exact}) \\
 \int M dx &= xy + \frac{1}{3}x^3 + g(y) \\
 \frac{\partial}{\partial y}\left(xy + \frac{1}{3}x^3 + g(y)\right) &= x + g'(y) = N = x + y^2 \\
@@ -159,7 +163,7 @@ g'(y) &= y^2 \Rightarrow g(y) = \frac{1}{3}y^3 \\
 xy + \frac{1}{3}x^3 + \frac{1}{3}y^3 &= C_1 \Rightarrow x^3 + y^3 + 3xy = C
 \end{aligned}$$
 
-### 五、齊次方程式 (Homogeneous equations)
+### 五、Homogeneous equations
 
 **⑯ 題目：** $\frac{dy}{dx} = \frac{x+y}{x}$
 
@@ -187,9 +191,9 @@ y^2 &= 2x^2\ln|x| + C x^2
 
 ---
 
-## 第二部分：二階 ODE 歷屆試題 TOP20
+## Second-order ordinary differential equations(ODEs)-past exam questions TOP20
 
-### 一、常係數特徵方程式 (Characteristic Equation)
+### 一、Characteristic Equation with Constant Coefficients
 
 **① 題目：** $y'' - 5y' + 6y = 0$
 
@@ -233,7 +237,7 @@ y'(0) &= C_1 - C_2 = 0 \Rightarrow C_1 = \frac{1}{2}, C_2 = \frac{1}{2} \\
 y &= \frac{1}{2}e^x + \frac{1}{2}e^{-x} = \cosh x
 \end{aligned}$$
 
-### 二、非齊次方程式 - 待定係數法 (Undetermined Coefficients)
+### 二、Non-homogeneous equations
 
 **⑥ 題目：** $y'' - 3y' + 2y = e^x$
 
@@ -286,7 +290,7 @@ A &= \frac{1}{2}, \ B = -1, \ C = 0 \\
 y &= C_1 e^x + C_2 e^{-x} + \frac{1}{2}x e^x - x
 \end{aligned}$$
 
-### 三、參數變異法 (Variation of Parameters)
+### 三、Variation of Parameters
 
 **⑪ 題目：** $y'' + y = \tan x$
 
@@ -316,7 +320,7 @@ y_p &= -\frac{1}{4}\cos 2x \sec 2x + \frac{1}{4}\sin 2x \ln|\sec 2x + \tan 2x| \
 y &= C_1 \cos 2x + C_2 \sin 2x - \frac{1}{4} + \frac{1}{4}\sin 2x \ln|\sec 2x + \tan 2x|
 \end{aligned}$$
 
-### 四、柯西-尤拉方程式 (Euler–Cauchy equation)
+### 四、Euler–Cauchy equation
 
 **⑭ 題目：** $x^2y'' + 3xy' + y = 0$
 
@@ -343,7 +347,7 @@ y_p &= -x \int \frac{x^{-1} \cdot 1}{-2/x} dx + x^{-1} \int \frac{x \cdot 1}{-2/
 y &= C_1 x + C_2 x^{-1} + \frac{x^2}{3}
 \end{aligned}$$
 
-### 五、降階法 (Order reduction method)
+### 五、Order reduction method
 
 **⑰ 題目：** 已知 $y_1=e^x$，求 $y'' - 2y' + y = 0$ 之第二解
 
